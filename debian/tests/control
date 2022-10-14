@@ -1,0 +1,6 @@
+Tests: require
+Restrictions: superficial
+Depends: @
+
+Tests: testsuite
+Depends: @, mocha, node-rimraf

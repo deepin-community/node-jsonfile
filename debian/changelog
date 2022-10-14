@@ -1,0 +1,107 @@
+node-jsonfile (6.1.0-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on nodejs.
+    + node-jsonfile: Drop versioned constraint on nodejs in Depends.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 15 Sep 2021 11:46:06 +0100
+
+node-jsonfile (6.1.0-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since stretch:
+    + node-jsonfile: Drop versioned constraint on node-graceful-fs in Depends.
+
+  [ Julien Puydt ]
+  * Fix d/watch.
+  * Bump standards-version to 4.6.0.
+  * Mark the require autopkgtest as superficial.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sat, 28 Aug 2021 21:59:04 +0200
+
+node-jsonfile (6.1.0-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * debian/copyright: use spaces rather than tabs to start continuation
+    lines.
+  * Remove obsolete field Name from debian/upstream/metadata (already
+    present in machine-readable debian/copyright).
+
+  [ Julien Puydt ]
+  * New upstream release 6.1.0.
+  * Declare d/rules requires root.
+  * Bump dh compat to 13.
+
+ -- Julien Puydt <jpuydt@debian.org>  Mon, 02 Nov 2020 15:05:07 +0100
+
+node-jsonfile (6.0.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Mark the package Multi-Arch: foreign following hinter.
+
+ -- Julien Puydt <jpuydt@debian.org>  Wed, 11 Mar 2020 08:49:54 +0100
+
+node-jsonfile (6.0.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Refresh packaging:
+    - Bump std-ver to 4.5.0.
+    - Drop d/compat and switch to dh-compat 12.
+    - Depend on nodejs >= 10 like upstream.
+    - Review which files to install and where.
+    - Update d/copyright.
+
+ -- Julien Puydt <jpuydt@debian.org>  Fri, 28 Feb 2020 09:08:17 +0100
+
+node-jsonfile (5.0.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Refresh packaging:
+    - Move to section javascript and priority optional.
+    - Point Vcs-* fields to salsa.
+    - Bump dh compat to 11.
+    - Bump std-ver to 4.2.1.
+    - Use my debian.org mail address.
+    - Update d/copyright.
+
+ -- Julien Puydt <jpuydt@debian.org>  Thu, 13 Sep 2018 07:25:37 +0200
+
+node-jsonfile (4.0.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump std-ver to 4.1.0.
+  * Bump d/watch to version 4.
+  * Run the upstream testsuite in autopkgtest.
+  * Require nodejs >= 6 now upstream dropped support for older versions.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Fri, 15 Sep 2017 07:12:50 +0200
+
+node-jsonfile (3.0.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Mon, 24 Jul 2017 11:17:32 +0200
+
+node-jsonfile (3.0.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Push standards-version to 4.0.0.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Wed, 28 Jun 2017 07:32:31 +0200
+
+node-jsonfile (2.4.0-1) unstable; urgency=medium
+
+  [ Bas Couwenberg ]
+  * Initial release.
+
+  [ Julien Puydt ]
+  * Push dh compat to 10.
+  * Push standards-version to 3.9.8.
+  * Use https for Vcs-* fields.
+  * New upstream release (Closes: #840991).
+  * Add myself to uploaders and taking over (Bas is ok with that).
+  * Add dep on node-graceful-fs.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Sun, 16 Oct 2016 19:49:08 +0200
