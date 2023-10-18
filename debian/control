@@ -13,7 +13,7 @@ Homepage: https://github.com/jprichardson/node-jsonfile
 Package: node-jsonfile
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}, nodejs, node-graceful-fs, node-universalify
+Depends: ${misc:Depends}, nodejs:any, node-graceful-fs, node-universalify
 Description: Easily read/write JSON files in Node.js
  jsonfile is a Node.js module to easily read/write JSON files in JavaScript.
  .

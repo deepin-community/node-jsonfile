@@ -1,3 +1,10 @@
+node-jsonfile (6.1.0-4) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-jsonfile: Add :any qualifier for nodejs dependency.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 21 Nov 2022 13:50:49 +0000
+
 node-jsonfile (6.1.0-3) unstable; urgency=medium
 
   [ Debian Janitor ]
